@@ -273,7 +273,6 @@ const Trainer4 = require('./images/trainer4.jpg')
 const Trainer5 = require('./images/trainer5.jpg')
 const Trainer6 = require('./images/trainer6.jpg')
 
-
 export const trainers = [
     {
         id: 1,
