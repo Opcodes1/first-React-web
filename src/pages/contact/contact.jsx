@@ -1,10 +1,28 @@
+import { MdEmail } from 'react-icons/md'
+import Header from '../../components/Header'
+import HeaderImage from '../../images/header_bg_2.jpg'
+import { BsMessenger } from 'react-icons/bs'
+import { IoLogoWhatsapp } from 'react-icons/io'
+
+
 import './contact.css'
 
 const contact = () => {
   return (
-    <div>
-      Contact
+   <>
+   <Header title="Get In Touch" image={HeaderImage}>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, corporis
+   </Header>
+   <section className='contact'>
+    <div className="container contact__container">
+      <div className="contact__wrapper">
+        <a href="maito:support@egttor.com" target="_blank" rel="noreferrer noopener"><MdEmail/></a>
+        <a href="http://m.me/ernest_achiever" target="_blank" rel="noreferrer noopener"><BsMessenger/></a>
+        <a href="https://wa.me/+2347062128208" target="_blank" rel="noreferrer noopener"><IoLogoWhatsapp/></a>
+      </div>
     </div>
+   </section>
+   </>
   )
 }
 
